@@ -232,6 +232,21 @@ color:#fff;
         color:#fff;
     }
 
+	
+#Parallax-three {
+    background-image: url("../img/6.jpg");
+padding:30px;
+background-repeat: no-repeat;
+background-position: center 0;
+background-size: cover;
+background-attachment: fixed;
+min-height:300px;
+color:#fff;
+}
+    #Parallax-three i {
+        color:#fff;
+    }
+
 /*=======================================
     CONTACT STYLES
 ==================================================*/
