@@ -89,7 +89,7 @@
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <h2>Lissajous Plotter</h2>
-                    <i class="fa fa-microchip fa-4x main-color"></i>
+                    <i class="fa fa-code fa-4x main-color"></i>
                 </div>
 
             </div>
@@ -97,25 +97,29 @@
             <div class="row text-center space-pad">
 
 
-              This Lissajous Curves Plotter was written in C++, using <a href='https://www.sfml-dev.org' rel='stylesheet' type='text/css'>SFML</a>
+              This Lissajous Curves Plotter was written in C++, using <a href='https://www.sfml-dev.org' rel='stylesheet' type='text/css'>SFML</a></br>
 
-              A Lissajous figure is obtained by composing two linear armonic oscillators.
+              A Lissajous figure is obtained by composing two linear armonic oscillators.</br>
 
-              As for the implementation, I've used SFML and C++ for this project. The window runs at 60 fps, at each frame it plots the lissajous curve on-screen according to its parameters and it also draws two animated oscillators alongside the figure to see how the trajectory of the composed position object overlaps the figure.
-              Each point is plotted at the X and Y specified by the following formulas:
-              X = amplitude * sin( omegaX*t + phiX );
-              Y = amplitude * sin( omegaY*t + phiY );
-              Where t takes values from 0 to 2*PI.
+              As for the implementation, I've used SFML and C++ for this project. The window runs at 60 fps, at each frame it plots the lissajous curve on-screen according to its parameters and it also draws two animated oscillators alongside the figure to see how the trajectory of the composed position object overlaps the figure.</br>
+              Each point is plotted at the X and Y specified by the following formulas:</br>
+              X = amplitude * sin( omegaX*t + phiX );</br>
+              Y = amplitude * sin( omegaY*t + phiY );</br>
+              Where t takes values from 0 to 2*PI.</br>
 
-              The following parameters are modifyable : amplitude, omegaX, omegaY, phiX, phiY, circleAnimation
-              - 'Z' & 'X' Modifies OmegaY ( -/+ 1 )
-              - 'A' & 'S' Modifies OmegaX ( -/+ 1 )
-              - 'Q' & 'W' Modifies Amplitude ( -/+ 1 )
-              - 'C' & 'V' Modifies PhiX ( -/+ 0.01 )
-              - 'D' & 'F' Modifies PhiY ( -/+ 0.01 )
-              - R - toggles Phi animation
-              - T - resets PhiX and PhiY to 0
-              - Y - toggles oscillators animation
+              </br>
+
+              The following parameters are modifyable : amplitude, omegaX, omegaY, phiX, phiY, circleAnimation</br>
+              - 'Z' & 'X' Modifies OmegaY ( -/+ 1 )</br>
+              - 'A' & 'S' Modifies OmegaX ( -/+ 1 )</br>
+              - 'Q' & 'W' Modifies Amplitude ( -/+ 1 )</br>
+              - 'C' & 'V' Modifies PhiX ( -/+ 0.01 )</br>
+              - 'D' & 'F' Modifies PhiY ( -/+ 0.01 )</br>
+              - R - toggles Phi animation</br>
+              - T - resets PhiX and PhiY to 0</br>
+              - Y - toggles oscillators animation</br>
+
+              <img src="assets/plotter.png">
 
               <!--
               <h3><b>Sunday, September 24th 2017</b>, the GDRH team met up for the first time in the school's Physics laboratory.</br></h3>
