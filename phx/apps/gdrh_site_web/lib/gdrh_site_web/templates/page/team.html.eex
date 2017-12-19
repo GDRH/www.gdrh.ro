@@ -1,0 +1,6 @@
+<h2>??</h2>
+
+<div class="jumbotron">
+  <h2><%= gettext "Team  %{name}!", name: "GDRH" %></h2>
+  <p class="lead">Team yyy yyy</p>
+</div>

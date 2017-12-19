@@ -16,7 +16,13 @@ defmodule GdrhSiteWeb.Router do
   scope "/", GdrhSiteWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/",          PageController, :index
+    get "/about",     PageController, :about
+    get "/team",      PageController, :team
+    get "/articles",  PageController, :articles
+    get "/contact",   PageController, :contact
+    
+
   end
 
   # Other scopes may use custom stacks.
