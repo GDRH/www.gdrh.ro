@@ -22,6 +22,7 @@ defmodule GdrhSiteWeb.Router do
     get "/articles",  PageController, :articles
     get "/contact",   PageController, :contact
     
+    resources "/members", MemberController
 
   end
 

@@ -4,3 +4,17 @@
   <h2><%= gettext "Team  %{name}!", name: "GDRH" %></h2>
   <p class="lead">Team yyy yyy</p>
 </div>
+
+<table border="1">
+	<%= for row <- @members do %>
+	  <tr>
+      <%= for m <- row do %>
+         <td><b><%= inspect(m.name) %></b> <br />
+         	      <%= inspect(m) %>
+         </td>
+      <% end %>
+	  </tr>
+	<% end %>
+</table>
+
+

@@ -10,7 +10,8 @@ defmodule GdrhSiteWeb.PageController do
   end
 
   def team(conn, _params) do
-    render conn, "team.html"
+    members = GdrhSite.Team.Member.members_list
+    render conn, "team.html", members: members
   end
 
   def articles(conn, _params) do
